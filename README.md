@@ -12,7 +12,7 @@
 
 Note: In the timetable below, the textbook codes (such as "AI:AMA") are defined [here](docs/resources.md#textbooks).
 
-| # | Date (2021) | Lecture topic  | Assumed preparation | Optional related readings and links | vs. CPSC 330|
+| # | Date (2021) | Lecture topic  | Recording from 2018 | Optional related readings and links | vs. CPSC 330|
 |---|--------------|---------------|----------------------|--------------------------------------|------------|
 | 1 | Wed 8 Sep | [Syllabus](../lectures/01_intro.pdf?raw=1)  | none | [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning), [Rise of the Machines](http://www.economist.com/news/briefing/21650526-artificial-intelligence-scares-peopleexcessively-so-rise-machines), [Talking Machine Episode 1](https://www.thetalkingmachines.com/episodes/hello-world) | n/a |
 | 2 | Fri 10 Sep | [Exploratory data analysis](../lectures/02_eda.ipynb) | [video](https://www.youtube.com/watch?v=jBslaEzFJCE&list=PLWmXHcz_53Q02ZLeAxigki1JZFfCO6M-b&index=1)  | [CPSC 340 bonus slides](../lectures/bonus/02_eda_bonus.pdf), [Gotta Catch'em all](http://datagenetics.com/blog/april32016/index.html), [Why Not to Trust Statistics](https://mathwithbaddrawings.com/2016/07/13/why-not-to-trust-statistics/), [Visualization Types](http://guides.library.duke.edu/datavis/vis_types), [Google Chart Gallery](https://developers.google.com/chart/interactive/docs/gallery?hl=en), [Other tools](http://selection.datavisualization.ch/) | less depth |
