@@ -24,7 +24,7 @@ We will roughly cover the following topics:
 
 Tutorials are completely optional. The list of tutorials can be found [here](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=340). See the ones starting with "T1". **You do not need to be officially registered for a tutorial to be part of the course.**
 
-**Office hours**: See the [here](https://canvas.ubc.ca/courses/58981/external_tools/15408).
+**Office hours**: See [here](https://canvas.ubc.ca/courses/58981/external_tools/15408).
 
 ## Teaching Team
 
@@ -46,15 +46,15 @@ Tutorials are completely optional. The list of tutorials can be found [here](htt
 
 ## Prerequisites
 
-- Basic algorithms and data structures (CPSC 221, or both of CPSC 260 and EECE 320 as well as one of CPSC 210, EECE 201, or EECE 309).
+- Basic algorithms and data structures (CPSC 221).
 - Linear algebra (one of MATH 152, 221, or 223).
 - Probability (one of STAT 241, STAT 251, ECON 325, ECON 327, MATH 302, STAT 302, or MATH 318).
-- Multivariate calculus (one of MATH 200, 217, 226, 253, or 263).
+- Multivariate calculus (one of MATH 200, 217, 226, 253, or 254).
 
 Undergraduate and graduate students from any department are welcome to take the class, provided that they satisfy the prerequisites. If you do not satisfy the exact prerequisites but would still like to enroll in the class, see [here](https://www.cs.ubc.ca/prerequisite-rules). For graduate students from outside the CS department, see [here](https://www.cs.ubc.ca/students/grad/registration/grads-outside-cs).
 
 
-**Auditing**: because the class/classroom is full, we may not have seats for auditors. If there is space and you would like to audit the course, please contact the instructor.
+**Auditing**: because the class/classroom is likely to be full, we may not have seats for auditors. If there is space and you would like to audit the course, please contact the instructor.
 
 
 ## Grading
