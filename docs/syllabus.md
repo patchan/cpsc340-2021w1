@@ -93,11 +93,15 @@ You will also need a way of compiling LaTeX documents. We recommend [Overleaf](h
 ## Academic concessions
 
 UBC has a [policy on academic concession](https://senate.ubc.ca/sites/senate.ubc.ca/files/downloads/20190515_V_135_Academic_Concession-Approved.pdf) for cases in which a student may be unable to complete coursework. According to this policy, grounds for academic concession can be illness, conflicting responsibilities, or compassionate grounds. Examples of compassionate grounds, from the above policy, include “a traumatic event experienced by the student, a family member, or a close friend; an act of sexual assault or other sexual misconduct experienced by the student, a family member, or a close friend; a death in the family or of a close friend.” If you would like to request an academic concession, please fill out the [academic concession form](ConcessionForm.pdf) and email it to the instructor as soon as possible. You may be asked for further documentation. The instructor will evaluate the situation and make a decision on whether to grant the concession and, if so, how to proceed.
+
 ## Late submissions
 
-By default, late submissions will not be accepted. The rationale is that we will be posting the solutions shortly after the assignment deadline, and we cannot accept submissions after the solutions are posted. I do not like this, but I believe the overall policy is best for the class as a whole.
+Assignments will be due at 11:59:59pm on the due date.
 
-_In exceptional circumstances_ a late submission may be accepted with an academic concession - see above.
+If you can't make it by that time, you can use up to 4 "late days" through the semester; each gives you a 24 hour extension to the deadline (regardless of whether the next day is a weekend or holiday). You cannot use more than two late days on any given assignment, because we'll post solutions two days after the deadline. (That is, you can be 1 day late on 4 assignments over the course of the term, or 2 days late on 2 assignments; you cannot be 3 days late on any one assignment.)
+
+There is no penalty for using late days up to these limits. If you over-use late days, you will get a 0 on that assignment. In exceptional circumstances, get in touch and we can work something out through the academic concession process (see above). "I had a lot of assignments in my other courses" or similar is not grounds for this; do your best to plan ahead, and keep in mind that each assignment is only a relatively small percentage of your final grade.
+
 ## Citing sources
 If you use information from students outside your group or from online sources or lecture notes, cite this at the start of each question. **You will receive a mark of 0 for the assignment (and possibly other consequences) if you are found copying from other sources without citation**.
 
