@@ -120,4 +120,4 @@ The final exam will take place on **TBD**.
 - Do not distribute any course materials (slides, homework assignments, solutions, notes, etc.) without permission.
 - If you commit to working with a partner on an assignment, do your fair share of the work.
 - If you have a problem or complaint, let the instructor(s) know immediately. Maybe we can fix it!
-- This is a tough course. If you're struggling with something, I recommend trying to figure it out 10-30 min before asking for help. Spending to little time will hinder your learning, whereas spending hours may not resulting in efficient learning either.
+- This is a tough course. If you're struggling with something, I recommend trying to figure it out 10-30 min before asking for help. Spending too little time will hinder your learning, whereas spending hours may not result in efficient learning either.
