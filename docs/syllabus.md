@@ -24,7 +24,7 @@ We will roughly cover the following topics:
 
 Tutorials are completely optional. The list of tutorials can be found [here](https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-course&dept=CPSC&course=340). See the ones starting with "T1". **You do not need to be officially registered for a tutorial to be part of the course.**
 
-**Office hours**: See [here](https://canvas.ubc.ca/courses/58981/external_tools/15408).
+**Office hours**: TBA. There will be a mixture of in-person and online office hours available.
 
 ## Teaching Team
 
@@ -54,8 +54,25 @@ Tutorials are completely optional. The list of tutorials can be found [here](htt
 
 Undergraduate and graduate students from any department are welcome to take the class, provided that they satisfy the prerequisites. If you do not satisfy the exact prerequisites but would still like to enroll in the class, see [here](https://www.cs.ubc.ca/prerequisite-rules). For graduate students from outside the CS department, see [here](https://www.cs.ubc.ca/students/grad/registration/grads-outside-cs).
 
-
 **Auditing**: because the class/classroom is likely to be full, we may not have seats for auditors. If there is space and you would like to audit the course, please contact the instructor.
+
+## Covid information
+
+Both sections are scheduled as in-person courses. For our in-person meetings in this class, it is important that all of us feel as comfortable as possible engaging in class activities while sharing an indoor space.  Non-medical masks that cover our noses and mouths are a primary tool to make it harder for Covid-19 to find a new host. The province [is currently mandating](https://srs.ubc.ca/covid-19/) a non-medical mask in public indoor spaces, including our class meetings, for the safety and comfort of you and everyone else in the class. If you have not yet had a chance to get vaccinated against Covid-19, vaccines are available to you for free: https://immunizebc.ca/. The higher the rate of vaccination in our community overall, the lower the chance of spreading this virus.  You are an important part of the UBC community. Please arrange to get vaccinated if you have not already done so.
+
+**If you’re sick, it’s important that you stay home – no matter what you think you may be sick with (e.g., cold, flu, other). If you think you might have Covid symptoms and/or have tested positive for Covid and/or are required to quarantine:** A [self-assessment for Covid symptoms](https://bc.thrive.health/covid19/en) might help.
+
+Do not come to class if you are sick, have Covid symptoms, have recently tested positive for Covid, or are required to quarantine. This precaution will help reduce risk and keep everyone safer.
+- We will post recordings of each lecture shortly afterwards.
+- No portion of the grade for this class is based on class attendance or participation.
+- All assignments are handed in online.
+- Some office hours will also be available online.
+ 
+The midterm will be taken electronically; we will provide information about this closer to the date.
+  
+If you are sick on the date of the final exam, do not attend. You must apply for deferred standing (an academic concession) through Science Advising no later than 48 hours after the missed final. Students who are granted deferred standing write the final exam at a later date. More information and the application are [here](https://science.ubc.ca/students/advising/concession).
+ 
+We (the instructors) will do our best to say well, but if we develop symptoms / test positive for Covid / etc, we will not come to class. The other instructor or one of the other experts in machine learning on campus will most likely substitute. It is also possible that some class sessions could be required to be online; if so, it will be announced with as much warning as possible by email and on Canvas. In this (hopefully unlikely) event, our classroom will still be available for you to sit in for the lecture.
 
 
 ## Grading
@@ -86,7 +103,7 @@ Balancing these two sides is difficult. In this course we will use the following
 
 ## Software
 
-We will be using Python for this course because it is open source and widely used in machine learning and data science.  We will use Python 3 (in particular 3.7 or higher). We recommend the Anaconda Python distribution because it comes bundled with a bunch of useful packages (NumPy, SciPy, scikit-learn, Jupyter notebook) pre-installed. You can [download Anaconda from their website](https://www.anaconda.com/download/) for free. For some more info on Python, see [here](python.md).
+We will be using Python for this course because it is open source and widely used in machine learning and data science.  We will use Python 3 (in particular 3.7 or higher). We recommend the Anaconda Python distribution, which comes bundled with a bunch of useful packages (NumPy, SciPy, scikit-learn, Jupyter notebook) pre-installed. You can [download Anaconda from their website](https://www.anaconda.com/download/) for free. For some more info on Python, see [here](python.md).
 
 You will also need a way of compiling LaTeX documents. We recommend [Overleaf](https://www.overleaf.com/).
 
