@@ -56,23 +56,30 @@ Undergraduate and graduate students from any department are welcome to take the 
 
 **Auditing**: because the class/classroom is likely to be full, we may not have seats for auditors. If there is space and you would like to audit the course, please contact the instructor.
 
-## Covid information
+## Covid Safety
 
-Both sections are scheduled as in-person courses. For our in-person meetings in this class, it is important that all of us feel as comfortable as possible engaging in class activities while sharing an indoor space.  Non-medical masks that cover our noses and mouths are a primary tool to make it harder for Covid-19 to find a new host. The province [is currently mandating](https://srs.ubc.ca/covid-19/) a non-medical mask in public indoor spaces, including our class meetings, for the safety and comfort of you and everyone else in the class. If you have not yet had a chance to get vaccinated against Covid-19, [vaccines are available to you for free](https://immunizebc.ca/). The higher the rate of vaccination in our community overall, the lower the chance of spreading this virus.  You are an important part of the UBC community. Please arrange to get vaccinated if you have not already done so.
+**Masks:** Masks are **required** for all indoor classes, as per the BC Public Health Officer orders. For our in-person meetings in this class, it is important that all of us feel as comfortable as possible engaging in class activities while sharing an indoor space.  For the purposes of this order, the term "masks" refers to medical and non-medical masks that cover our noses and mouths.  Masks are a primary tool to make it harder for Covid-19 to find a new host.  You will need to wear a medical or non-medical mask for the duration of our class meetings, for your own protection, and the safety and comfort of everyone else in the class.  You may be asked to remove your mask briefly for an ID check for an exam, but otherwise, your mask should cover your nose and mouth. Please do not eat in class. If you need to drink water/coffee/tea/etc, please keep your mask on between sips. Please note that there are some people who cannot wear a mask. These individuals are equally welcome in our class. 
 
-**If you’re sick, it’s important that you stay home – no matter what you think you may be sick with (e.g., cold, flu, other). If you think you might have Covid symptoms and/or have tested positive for Covid and/or are required to quarantine:** A [self-assessment for Covid symptoms](https://bc.thrive.health/covid19/en) might help.
+**Vaccination:** If you have not yet had a chance to get vaccinated against Covid-19, vaccines are [available to you, free, and on campus](http://www.vch.ca/covid-19/covid-19-vaccine). The higher the rate of vaccination in our community overall, the lower the chance of spreading this virus.  You are an important part of the UBC community. Please arrange to get vaccinated if you have not already done so. 
 
-Do not come to class if you are sick, have Covid symptoms, have recently tested positive for Covid, or are required to quarantine. This precaution will help reduce risk and keep everyone safer.
-- We will post recordings of each lecture shortly afterwards.
-- No portion of the grade for this class is based on class attendance or participation.
-- All assignments are handed in online.
-- Some office hours will also be available online.
- 
-The midterm will be taken electronically; we will provide information about this closer to the date.
+**Seating in class:** To reduce the risk of Covid transmission, please sit in a consistent area of the classroom each day.  This will minimize your contacts and will still allow for the pedagogical methods planned for this class to help your learning.  
+
+**If you’re sick, it’s important that you stay home – no matter what you think you may be sick with (e.g., cold, flu, other).** 
+
+- A daily self-health assessment is required before attending campus. Every day, before coming to class, complete the self-assessment for Covid symptoms using [this tool](https://bc.thrive.health/covid19/en).
+
+- Do not come to class if you have Covid symptoms, have recently tested positive for Covid, or are required to quarantine. You can [check this website](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/self-isolation#Who) to find out if you should self-isolate or self-monitor. 
+
+- Your precautions will help reduce risk and keep everyone safer.  This class is intended to provide flexibility so that you can prioritize your health and still be able to succeed. Specifically:
+  - We will post recordings of each lecture shortly afterwards.
+  - No portion of the grade for this class is based on class attendance or participation.
+  - All assignments are handed in online.
+  - Some office hours will also be available online.
+  - The midterm will be taken electronically; we will provide information about this closer to the date.
   
-If you are sick on the date of the final exam, do not attend. You must apply for deferred standing (an academic concession) through Science Advising no later than 48 hours after the missed final. Students who are granted deferred standing write the final exam at a later date. More information and the application are [here](https://science.ubc.ca/students/advising/concession).
- 
-We (the instructors) will do our best to say well, but if we develop symptoms / test positive for Covid / etc, we will not come to class. The other instructor or one of the other experts in machine learning on campus will most likely substitute. It is also possible that some class sessions could be required to be online; if so, it will be announced with as much warning as possible by email and on Canvas. In this (hopefully unlikely) event, our classroom will still be available for you to sit in for the lecture.
+If you are sick on the date of the final exam, do not attend. You must apply for deferred standing (an academic concession) through Science Advising no later than 48 hours after the missed final. Students who are granted deferred standing write the final exam at a later date. More information and the application are [available here](https://science.ubc.ca/students/advising/concession); you can also read [the formal UBC policy](http://www.calendar.ubc.ca/vancouver/index.cfm?tree=3,329,0,0).
+
+**If an instructor gets sick:** We will do our best to say well, but if we develop symptoms / test positive for Covid / etc, we will not come to class. The other instructor, or one of the other experts in machine learning on campus, will most likely substitute. It is also possible that some class sessions could be required to be online; if so, it will be announced with as much warning as possible by email and on Canvas. In this (hopefully unlikely) event, our classroom will still be available for you to sit in for the lecture; recordings will also still be available.
 
 
 ## Grading
@@ -131,7 +138,7 @@ The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:3
 
 ## Final exam
 
-The final exam will take place on **TBD**.
+The final exam will take place on **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
 
 ## Code of conduct
 
