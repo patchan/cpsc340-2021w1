@@ -1,4 +1,15 @@
 # CPSC 340 syllabus
+
+Table of contents:
+- [Topics covered](#topics-covered)
+- [Class meeting times](#class-meetings)
+- [Teaching team](#teaching-team)
+- [Covid safety information](#covid-safety)
+- [Prerequisites](#prerequisites)
+- [Grading](#grading)
+- [Software](#software)
+- [Code of Conduct](#code-of-conduct)
+
 ## Topics covered
 
 We introduce basic principles and techniques in the fields of data mining and machine learning. These are some of the key tools behind the emerging field of data science and the popularity of the "big data" buzzword. These techniques are now running behind the scenes to discover patterns and make predictions in various applications in our daily lives. We'll focus on many of the core data mining and machine learning technologies, with motivating applications from a variety of disciplines.
@@ -107,6 +118,33 @@ Sometimes serious grading errors are made, for example when a grader did not see
 
 Balancing these two sides is difficult. In this course we will use the following policy: if a grade is challenged in a way that is deemed unreasonable, the student will receive a warning. This decision will be made by the instructor. If this happens a second time, the student will lose the privilege to challenge grades for the remainder of the course. Examples of unreasonable requests include extremely minor complaints (e.g. half a mark on an assignment) or repeatedly contesting the same issue once a decision has been reached. This policy applies to both assignments and exams.
 
+### Late submissions
+
+Assignments will be due at 11:59:59pm on the due date.
+
+If you can't make it by that time, you can use up to 4 "late days" through the semester; each gives you a 24 hour extension to the deadline (regardless of whether the next day is a weekend or holiday). You cannot use more than two late days on any given assignment, because we'll post solutions two days after the deadline. (That is, you can be 1 day late on 4 assignments over the course of the term, or 2 days late on 2 assignments; you cannot be 3 days late on any one assignment.)
+
+There is no penalty for using late days up to these limits. If you over-use late days, you will get a 0 on that assignment. In exceptional circumstances, get in touch and we can work something out through the academic concession process (see above). "I had a lot of assignments in my other courses" or similar is not grounds for this; do your best to plan ahead, and keep in mind that each assignment is only a relatively small percentage of your final grade.
+
+### Citing sources
+If you use information from students outside your group or from online sources or lecture notes, cite this at the start of each question. **You will receive a mark of 0 for the assignment (and possibly other consequences) if you are found copying from other sources without citation**.
+
+
+### Midterm
+
+The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:30pm**. The exam will be computer-based. We will provide more information about where students can take the exam from (e.g. for those unable to travel). 
+
+**Missed midterm exam**. There is no makeup midterm exam. If you miss the midterm exam, or anticipate missing the midterm exam, please see the Academic concessions section above. In most cases, if you have missed the midterm exam for a justified reason, the weight of the midterm component of the course will be transferred to the final exam.
+
+### Final exam
+
+The final exam will take place on **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
+
+
+### Academic concessions
+
+UBC has a [policy on academic concession](https://senate.ubc.ca/sites/senate.ubc.ca/files/downloads/20190515_V_135_Academic_Concession-Approved.pdf) for cases in which a student may be unable to complete coursework. According to this policy, grounds for academic concession can be illness, conflicting responsibilities, or compassionate grounds. Examples of compassionate grounds, from the above policy, include “a traumatic event experienced by the student, a family member, or a close friend; an act of sexual assault or other sexual misconduct experienced by the student, a family member, or a close friend; a death in the family or of a close friend.” If you would like to request an academic concession, please fill out the [academic concession form](ConcessionForm.pdf) and email it to the instructor as soon as possible. You may be asked for further documentation. The instructor will evaluate the situation and make a decision on whether to grant the concession and, if so, how to proceed.
+
 
 ## Software
 
@@ -115,34 +153,11 @@ We will be using Python for this course because it is open source and widely use
 You will also need a way of compiling LaTeX documents. We recommend [Overleaf](https://www.overleaf.com/).
 
 
-## Academic concessions
-
-UBC has a [policy on academic concession](https://senate.ubc.ca/sites/senate.ubc.ca/files/downloads/20190515_V_135_Academic_Concession-Approved.pdf) for cases in which a student may be unable to complete coursework. According to this policy, grounds for academic concession can be illness, conflicting responsibilities, or compassionate grounds. Examples of compassionate grounds, from the above policy, include “a traumatic event experienced by the student, a family member, or a close friend; an act of sexual assault or other sexual misconduct experienced by the student, a family member, or a close friend; a death in the family or of a close friend.” If you would like to request an academic concession, please fill out the [academic concession form](ConcessionForm.pdf) and email it to the instructor as soon as possible. You may be asked for further documentation. The instructor will evaluate the situation and make a decision on whether to grant the concession and, if so, how to proceed.
-
-## Late submissions
-
-Assignments will be due at 11:59:59pm on the due date.
-
-If you can't make it by that time, you can use up to 4 "late days" through the semester; each gives you a 24 hour extension to the deadline (regardless of whether the next day is a weekend or holiday). You cannot use more than two late days on any given assignment, because we'll post solutions two days after the deadline. (That is, you can be 1 day late on 4 assignments over the course of the term, or 2 days late on 2 assignments; you cannot be 3 days late on any one assignment.)
-
-There is no penalty for using late days up to these limits. If you over-use late days, you will get a 0 on that assignment. In exceptional circumstances, get in touch and we can work something out through the academic concession process (see above). "I had a lot of assignments in my other courses" or similar is not grounds for this; do your best to plan ahead, and keep in mind that each assignment is only a relatively small percentage of your final grade.
-
-## Citing sources
-If you use information from students outside your group or from online sources or lecture notes, cite this at the start of each question. **You will receive a mark of 0 for the assignment (and possibly other consequences) if you are found copying from other sources without citation**.
-
-## Midterm
-
-The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:30pm**. The exam will be computer-based. We will provide more information about where students can take the exam from (e.g. for those unable to travel). 
-
-**Missed midterm exam**. There is no makeup midterm exam. If you miss the midterm exam, or anticipate missing the midterm exam, please see the Academic concessions section above. In most cases, if you have missed the midterm exam for a justified reason, the weight of the midterm component of the course will be transferred to the final exam.
-
-## Final exam
-
-The final exam will take place on **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
 
 ## Code of conduct
 
 - Do not distribute any course materials (slides, homework assignments, solutions, notes, etc.) without permission.
 - If you commit to working with a partner on an assignment, do your fair share of the work.
+- [Cite sources](#citing-sources) appropriately on exams.
 - If you have a problem or complaint, let the instructor(s) know immediately. Maybe we can fix it!
 - This is a tough course. If you're struggling with something, I recommend trying to figure it out 10-30 min before asking for help. Spending too little time will hinder your learning, whereas spending hours may not result in efficient learning either.
