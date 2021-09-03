@@ -134,16 +134,16 @@ If you use information from students outside your group or from online sources o
 
 The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:30pm**. The exam will be computer-based. We will provide more information about where students can take the exam from (e.g. for those unable to travel). 
 
-**Missed midterm exam**. There is no makeup midterm exam. If you miss the midterm exam, or anticipate missing the midterm exam, please see the Academic concessions section above. In most cases, if you have missed the midterm exam for a justified reason, the weight of the midterm component of the course will be transferred to the final exam.
+**Missed midterm exam**. There is no makeup midterm exam. If you miss the midterm exam, or anticipate missing the midterm exam, please see the Academic concessions section below. In most cases, if you have missed the midterm exam for a justified reason, the weight of the midterm component of the course will be transferred to the final exam.
 
 ### Final exam
 
-The final exam will take place on **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
+The date of the final exam is **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
 
 
 ## Academic concessions
 
-UBC has a [policy on academic concession](https://senate.ubc.ca/sites/senate.ubc.ca/files/downloads/20190515_V_135_Academic_Concession-Approved.pdf) for cases in which a student may be unable to complete coursework. According to this policy, grounds for academic concession can be illness, conflicting responsibilities, or compassionate grounds. Examples of compassionate grounds, from the above policy, include “a traumatic event experienced by the student, a family member, or a close friend; an act of sexual assault or other sexual misconduct experienced by the student, a family member, or a close friend; a death in the family or of a close friend.” If you would like to request an academic concession, please fill out the [academic concession form](ConcessionForm.pdf) and email it to cpsc340-admin@cs.ubc.ca as soon as possible. You may be asked for further documentation. The instructor will evaluate the situation and make a decision on whether to grant the concession and, if so, how to proceed.
+UBC has a [policy on academic concession](https://senate.ubc.ca/sites/senate.ubc.ca/files/downloads/20190515_V_135_Academic_Concession-Approved.pdf) for cases in which a student may be unable to complete coursework. According to this policy, grounds for academic concession can be illness, conflicting responsibilities, or compassionate grounds. Examples of compassionate grounds, from the above policy, include “a traumatic event experienced by the student, a family member, or a close friend; an act of sexual assault or other sexual misconduct experienced by the student, a family member, or a close friend; a death in the family or of a close friend.” If you would like to request an academic concession, please fill out the [academic concession form](ConcessionForm.pdf) and email it to `cpsc340-admin@cs.ubc.ca` as soon as possible. You may be asked for further documentation. The instructor will evaluate the situation and make a decision on whether to grant the concession and, if so, how to proceed.
 
 ## Accommodation requests
 
