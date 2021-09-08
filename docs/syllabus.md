@@ -52,9 +52,9 @@ Tutorials are completely optional. The list of tutorials can be found [here](htt
 - Dylan Green
 - Niloofar Khoshsiyar
 - Lironne Kurzman
-- Yen Fu Lin
+- Paul Lin
 - Michael Liu
-- Tianyue Zhang
+- Helen Zhang
 
 ## Prerequisites
 
