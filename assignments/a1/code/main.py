@@ -27,13 +27,8 @@ import grads
 from decision_stump import DecisionStumpEquality, DecisionStumpErrorRate, DecisionStumpInfoGain
 from decision_tree import DecisionTree
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-q', '--question', required=True)
 
-    io_args = parser.parse_args()
-    question = io_args.question
-
+def main(question):
     if question == "3.4":
         # Here is some code to test your answers to Q3.4
         # Below we test out example_grad using scipy.optimize.approx_fprime, which approximates gradients.
@@ -228,3 +223,12 @@ if __name__ == "__main__":
 
     else:
         print("No code to run for question", question)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-q', '--question', required=True)
+
+    io_args = parser.parse_args()
+    question = io_args.question
+    main(question)
