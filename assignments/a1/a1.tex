@@ -11,9 +11,16 @@
 \usepackage{graphicx}
 \usepackage{parskip}
 \usepackage{amssymb}
-\usepackage{listings} % For displaying code
+
+% Use one or the other of these for displaying code.
+% NOTE: If you get
+%  ! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
+% and don't want to use minted, just comment out the next line!
+\usepackage{minted}
+\usepackage{listings}
 
 \def\ans#1{\par\gre{Answer: #1}}
+\newenvironment{answer}{\par\begingroup\color{gre}Answer:}{\endgroup}
 \def\rubric#1{\gre{Rubric: \{#1\}}}{}
 
 % Colors
@@ -122,7 +129,7 @@
 	\]
 	and use $x_i$ to denote element $i$ of vector $x$.
 	\blu{Evaluate the following expressions} (you do not need to show your work).
-	\enum{
+	\begin{enumerate}
 		\item $\sum_{i=1}^n x_iy_i$ (inner product).
 		\item $\sum_{i=1}^n x_i z_i$ (inner product between orthogonal vectors).
 		\item $\alpha(x+z)$ (vector addition and scalar multiplication)
@@ -130,7 +137,7 @@
 		\item $Ax$ (matrix-vector multiplication).
 		\item $x^TAx$ (quadratic form).
 		\item $A^TA$ (matrix tranpose and matrix multiplication).
-	}
+	\end{enumerate}
 
 	\subsection{Matrix Algebra Rules}
 	\rubric{points:10}
@@ -320,11 +327,11 @@
 	\rubric{points:2}
 
 	\blu{Report the following statistics}:
-	\enum{
+	\begin{enumerate}
 		\item The minimum, maximum, mean, median, and mode of all values across the dataset.
 		\item The $5\%$, $25\%$, $50\%$, $75\%$, and $95\%$ quantiles of all values across the dataset.
 		\item The names of the regions with the highest and lowest means, and the highest and lowest variances.
-	}
+	\end{enumerate}
 	In light of the above, \blu{is the mode a reliable estimate of the most ``common" value? Describe another way we could give a meaningful ``mode" measurement for this (continuous) data.} Note: the function \texttt{utils.mode()} will compute the mode value of an array for you.
 
 
@@ -338,14 +345,14 @@
 	\fig{1}{./figs/visualize-unlabeled}
 
 	The figure contains the following plots, in a shuffled order:
-	\enum{
+	\begin{enumerate}
 		\item A single histogram showing the distribution of \emph{each} column in $X$.
 		\item A histogram showing the distribution of each the values in the matrix $X$.
 		\item A boxplot grouping data by weeks, showing the distribution across regions for each week.
 		\item A plot showing the illness percentages over time.
 		\item A scatterplot between the two regions with highest correlation.
 		\item A scatterplot between the two regions with lowest correlation.
-	}
+	\end{enumerate}
 
 	\blu{Match the plots (labeled A-F) with the descriptions above (labeled 1-6), with an extremely brief (a few words is fine) explanation for each decision.}
 
@@ -444,11 +451,11 @@
 	\rubric{points:2}
 
 	Running \texttt{python main.py -q 6.5} fits decision trees of different depths using the following different implementations:
-	\enum{
+	\begin{enumerate}
 		\item A decision tree using \texttt{DecisionStumpErrorRate}
 		\item A decision tree using \texttt{DecisionStumpInfoGain}
 		\item The \texttt{DecisionTreeClassifier} from the popular Python ML library \emph{scikit-learn}
-	}
+	\end{enumerate}
 
 	% (3) and (3) above use a more sophisticated splitting criterion called the information gain, instead of just the classification accuracy.
 	Run the code and look at the figure.
