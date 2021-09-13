@@ -17,4 +17,4 @@ a1.zip: a1/a1.pdf $(shell find a1)
 	# delete existing zip
 	rm -f $@
 	# make new zip
-	zip -rX $@ a1
+	zip -rX $@ a1 --exclude '*.pyc'
