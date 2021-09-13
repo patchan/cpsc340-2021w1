@@ -84,15 +84,15 @@ class DecisionStumpErrorRate:
 
     def fit(self, X, y):
         """YOUR CODE HERE FOR Q6.2"""
-        pass
+        raise NotImplementedError("Implement DecisionStumpErrorRate.predict")
 
     def predict(self, X):
-        """YOUR CODE HERE FOR Q2.1"""
-        pass
+        """YOUR CODE HERE FOR Q6.2"""
+        raise NotImplementedError("Implement DecisionStumpErrorRate.predict")
 
 
 """
-A helper function that computes the entropy of the 
+A helper function that computes the entropy of the
 discrete distribution p (stored in a 1D numpy array).
 The elements of p should add up to 1.
 This function ensures lim p-->0 of p log(p) = 0
@@ -106,7 +106,7 @@ def entropy(p):
 
 
 """
-This is not required, but one way to simplify the code is 
+This is not required, but one way to simplify the code is
 to have this class inherit from DecisionStumpErrorRate.
 Which methods (init, fit, predict) do you need to overwrite?
 """

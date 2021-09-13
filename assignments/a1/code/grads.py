@@ -20,7 +20,7 @@ def foo(x):
 
 
 def foo_grad(x):
-    raise NotImplementedError # TODO
+    raise NotImplementedError("Implement foo_grad") # TODO
 
 
 def bar(x):
@@ -28,5 +28,5 @@ def bar(x):
 
 
 def bar_grad(x):
-    raise NotImplementedError # TODO
+    raise NotImplementedError("Implement bar_grad") # TODO
 # Hint: This is a bit tricky - what if one of the x[i] is zero?
