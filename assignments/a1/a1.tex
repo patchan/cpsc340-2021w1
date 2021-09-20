@@ -1,3 +1,6 @@
+% !TEX enableShellEscape = yes
+% (The above line makes atom-latex compile with -shell-escape for
+% minted, and is just ignored by other systems.)
 \documentclass{article}
 
 
@@ -15,12 +18,14 @@
 % Use one or the other of these for displaying code.
 % NOTE: If you get
 %  ! Package minted Error: You must invoke LaTeX with the -shell-escape flag.
-% and don't want to use minted, just comment out the next line!
-\usepackage{minted}
+% and don't want to use minted, just comment out the next line
+\usepackage{minted} \BeforeBeginEnvironment{minted}{\begingroup\color{black}} \AfterEndEnvironment{minted}{\endgroup}  % makes default text black inside minted
+
 \usepackage{listings}
 
+
 \def\ans#1{\par\gre{Answer: #1}}
-\newenvironment{answer}{\par\begingroup\color{gre}Answer:}{\endgroup}
+\newenvironment{answer}{\par\begingroup\color{gre}Answer: }{\endgroup}
 \def\rubric#1{\gre{Rubric: \{#1\}}}{}
 
 % Colors
