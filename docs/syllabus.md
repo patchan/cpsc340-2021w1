@@ -132,7 +132,7 @@ If you use information from students outside your group or from online sources o
 
 ### Midterm
 
-The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:30pm**. The exam will be computer-based. We will provide more information about where students can take the exam from (e.g. for those unable to travel). 
+The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:30pm**. The exam will be computer-based through Canvas. You can take the exam from anywhere.
 
 **Missed midterm exam**. There is no makeup midterm exam. If you miss the midterm exam, or anticipate missing the midterm exam, please see the Academic concessions section below. In most cases, if you have missed the midterm exam for a justified reason, the weight of the midterm component of the course will be transferred to the final exam.
 
