@@ -2,17 +2,19 @@ LATEXMK ?= latexmk
 
 .PHONY: all clean
 
-all: a1.zip a1sol.zip
+all: a1.zip a2.zip
 
 # to add other assignments:
 #   - put as a target of all
 #   - put the extra dependency rules for the pdf and zip
 
 a1/a1.pdf: $(shell find a1/figs)
+a2/a2.pdf: $(shell find a2/figs)
 %.pdf: %.tex
 	${LATEXMK} -silent -cd -pdf -shell-escape $<
 
 a1.zip: a1/a1.pdf $(shell find a1/code a1/data a1/figs)
+a2.zip: a2/a2.pdf $(shell find a2/code a2/data a2/figs)
 %.zip: %
 	# clean up tex tmp files
 	${LATEXMK} -silent -cd -c $</*.tex
