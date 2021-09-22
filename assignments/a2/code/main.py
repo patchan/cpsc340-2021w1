@@ -60,24 +60,6 @@ def main():
 def q1():
     dataset = load_dataset("citiesSmall.pkl")
 
-    X, y = dataset["X"], dataset["y"]
-    X_test, y_test = dataset["Xtest"], dataset["ytest"]
-    model = DecisionTreeClassifier(max_depth=2, criterion="entropy", random_state=1)
-    model.fit(X, y)
-
-    y_hat = model.predict(X)
-    err_train = np.mean(y_hat != y)
-
-    y_hat = model.predict(X_test)
-    err_test = np.mean(y_hat != y_test)
-    print("Training error: {:.3f}".format(err_train))
-    print("Testing error: {:.3f}".format(err_test))
-
-
-@handle("1")
-def q1():
-    dataset = load_dataset("citiesSmall.pkl")
-
     X = dataset["X"]
     y = dataset["y"]
     X_test = dataset["Xtest"]
