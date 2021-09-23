@@ -20,5 +20,5 @@ class KNN:
         self.y = y
 
     def predict(self, X_hat):
-        """YOUR CODE HERE FOR Q2"""
+        """YOUR CODE HERE FOR Q1"""
         raise NotImplementedError()
