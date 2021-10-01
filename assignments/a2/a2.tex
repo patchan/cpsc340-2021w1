@@ -34,6 +34,7 @@
 \newcommand\ans[1]{\par\gre{Answer: #1}}
 \newenvironment{answer}{\par\begingroup\color{gre}Answer: }{\endgroup}
 \let\ask\blu
+\let\update\red
 \newenvironment{asking}{\begingroup\color{blu}}{\endgroup}
 \newcommand\pts[1]{\textcolor{pointscolour}{[#1~points]}}
 
@@ -229,10 +230,11 @@
         \item The training set has $n$ objects each with $d$ features.
         \item The test set has $t$ objects with $d$ features.
         \item Each feature can have up to $c$ discrete values (you can assume $c \leq n$).
-        \item There are $k$ class labels (you can assume $k \leq n$)
+        \item There are $k$ class labels (you can assume $k \leq n$).
     \end{itemize}
-    You can implement the training phase of a naive Bayes classifier in this setup in $O(nd)$, since you only need to do a constant amount of work for each $X(i,j)$ value. (You do not have to actually implement it in this way for the previous question, but you should think about how this could be done.)
+    You can implement the training phase of a naive Bayes classifier in this setup in $O(\update{k c d + {}} nd)$, since you only need to do a constant amount of work for each $X_i^j$ value\update{; usually $k c \ll n$ and so this is $O(n d)$}. (You do not have to actually implement it in this way for the previous question, but you should think about how this could be done.)
     \ask{What is the cost of classifying $t$ test examples with the model and this way of computing the predictions?}
+    \update{It's preferable to leave your answer in terms of $k$ and $c$ if relevant.}
 
 
     \clearpage
