@@ -128,8 +128,8 @@ class LeastSquaresPoly:
         """YOUR CODE HERE FOR Q3.2"""
         raise NotImplementedError()
 
-    # A private helper function to transform any matrix X into
-    # the polynomial basis defined by this class at initialization
+    # A private helper function to transform any X with d=1 into
+    # the polynomial basis defined by this class at initialization.
     # Returns the matrix Z that is the polynomial basis of X.
     def _poly_basis(self, X):
         """YOUR CODE HERE FOR Q3.2"""
