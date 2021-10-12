@@ -1,6 +1,8 @@
 import numpy as np
 from scipy.optimize.optimize import approx_fprime
 
+from utils import ensure_1d
+
 """
 Implementation of function objects.
 Function objects encapsulate the behaviour of an objective function that we optimize.
@@ -27,9 +29,11 @@ class FunObj:
 
     def check_correctness(self, w, X, y):
         n, d = X.shape
+        w = ensure_1d(w)
+        y = ensure_1d(y)
         estimated_gradient = approx_fprime(
-            w.flatten(),
-            lambda w: self.evaluate(w.reshape((d, 1)), X, y)[0],
+            w,
+            lambda w: self.evaluate(w, X, y)[0],
             epsilon=1e-6,
         )
         implemented_gradient = self.evaluate(w, X, y)[1]
@@ -48,6 +52,10 @@ class FunObjLeastSquares(FunObj):
         Evaluates the function and gradient of least squares objective.
         Least squares objective is the sum of squared residuals.
         """
+        # help avoid mistakes (as described in the assignment) by
+        # potentially reshaping our arguments
+        w = ensure_1d(w)
+        y = ensure_1d(y)
 
         # Prediction is linear combination
         y_hat = X @ w
@@ -71,6 +79,10 @@ class FunObjRobustRegression(FunObj):
         """
         Evaluates the function and gradient of ROBUST least squares objective.
         """
+        # help avoid mistakes (as described in the assignment) by
+        # potentially reshaping our arguments
+        w = ensure_1d(w)
+        y = ensure_1d(y)
 
         """YOUR CODE HERE FOR Q2.3"""
         raise NotImplementedError()

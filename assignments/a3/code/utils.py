@@ -35,3 +35,14 @@ def test_and_plot(model, X, y, Xtest=None, ytest=None, title=None, filename=None
         filename = Path("..", "figs", filename)
         print("Saving to", filename)
         plt.savefig(filename)
+
+
+def ensure_1d(x):
+    if x.ndim == 1:
+        return x
+    elif x.ndim == 2:
+        return x.squeeze(axis=1)
+    elif x.ndim == 0:
+        return x[np.newaxis]
+    else:
+        raise ValueError(f"invalid shape {x.shape} for ensure_1d")

@@ -129,10 +129,11 @@ then the NumPy broadcasting rules give you something of shape \texttt{(n, n)}.
 This is a very unfortunate consequence of the way the broadcasting rules work.
 If you stick to either one, you generally don't have to worry about it;
 \textbf{we're assuming shape \texttt{(n,)} here}.
-Note that you can go from something of shape \texttt{(n, 1)} to \texttt{(n,)}
-by, for example, using \texttt{two\_d\_array.squeeze(1)}
+Note that you can
+\update{ensure you have something of shape \texttt{(n,)} with the \texttt{utils.ensure\_1d} helper, which basically just uses}
+\texttt{two\_d\_array.squeeze(1)}
 (which checks that the axis at index 1, the second one, is length 1 and then removes it).
-You can go in the other direction with, for instance, \texttt{one\_d\_array[:, np.newaxis]}
+You can go from \texttt{(n,)} to \texttt{(n, 1)} with, for instance, \texttt{one\_d\_array[:, np.newaxis]}
 (which says ``give me the whole first axis, then add another axis of length 1 in the second position'').
 
 \subsection{Weighted Least Squares in One Dimension \pts{8}}
