@@ -31,8 +31,8 @@ Note: In the timetable below, the textbook codes (such as "AI:AMA") are defined 
 | Fri Oct 8<br> | **2pm class**: [Bonus lecture on Responsible ML](lectures/bonus-responsible-ml.pdf?raw=1) by Lironne Kurzman (TA)<br>**4pm class**: [Bonus lecture on Reinforcement Learning](lectures/bonus-rl.pdf?raw=1) by Helen Zhang (TA)   |  |    |
 | Mon Oct 11   | | THANKSGIVING - NO CLASS | |
 | Wed Oct 13 <br>  | [Robust Regression](lectures/L14.pdf?raw=1)     | [Companion notebook](notebooks/L14_loss-basis.ipynb), ML:APP 7.4    |  [Week 5 Tutorials](tutorials/week05)   |
-| Fri Oct 15<br>  | [Feature Selection](lectures/L16.pdf)       | [Genome-Wide Association Studies](https://en.wikipedia.org/wiki/Genome-wide_association_study) [AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion), [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion)<br>ESL 3.3 , 7.5-7   |  Assignment 3 due         |
-| Mon Oct 18<br> | [Regularization](lectures/L17.pdf)    | [Companion notebook](notebooks/L16demo_regularization.ipynb),  ESL 3.4., ML:APP 7.5, AI:AMA 18.4  |   |
+| Fri Oct 15<br>  | [Feature Selection](lectures/L15.pdf?raw=1)       | [Genome-Wide Association Studies](https://en.wikipedia.org/wiki/Genome-wide_association_study) [AIC](https://en.wikipedia.org/wiki/Akaike_information_criterion), [BIC](https://en.wikipedia.org/wiki/Bayesian_information_criterion)<br>ESL 3.3 , 7.5-7   |  Assignment 3 due         |
+| Mon Oct 18<br> | [Regularization](lectures/L16.pdf?raw=1)    | [Companion notebook](notebooks/L16demo_regularization.ipynb),  ESL 3.4., ML:APP 7.5, AI:AMA 18.4  |   |
 | Wed Oct 20<br> | [More Regularization](lectures/L18.pdf)   | [Companion notebook](notebooks/L17_more-reg.ipynb),  [RBF video](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/rbf.mp4) [RBF and Regularization video](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/rbf2.mp4)<br>ESL 6.7, ML:APP 13.3-4     |   |
 | Thu Oct 21<br> |  | MIDTERM (6:00-7:30pm) | |
 | Fri Oct 22<br> | [Linear Classifiers](lectures/L19.pdf)   | [Companion notebook](notebooks/L19b_lin-classifiers1.ipynb),  [Perceptron](https://en.wikipedia.org/wiki/Perceptron)<br>ESL 4.5, ML:APP 8.5    |        |
