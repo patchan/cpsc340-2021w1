@@ -47,9 +47,9 @@ Tutorials are completely optional. The list of tutorials can be found [here](htt
 **Teaching Assistants**:
 
 - Daniel Ajisafe
-- Anubhav Garg
 - Ruiyu Gou
 - Dylan Green
+- Ken Johnson
 - Niloofar Khoshsiyar
 - Lironne Kurzman
 - Paul Lin
