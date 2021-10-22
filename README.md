@@ -35,7 +35,7 @@ Note: In the timetable below, the textbook codes (such as "AI:AMA") are defined 
 | 16 | Mon Oct 18<br> | [Regularization](lectures/L16.pdf?raw=1)    | [Companion notebook](notebooks/L16demo_regularization.ipynb),  ESL 3.4., ML:APP 7.5, AI:AMA 18.4  |   |
 | 17 | Wed Oct 20<br> | [More Regularization](lectures/L17.pdf?raw=1)   | [Companion notebook](notebooks/L17_more-reg.ipynb),  [RBF video](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/rbf.mp4) [RBF and Regularization video](https://www.cs.ubc.ca/~schmidtm/Courses/Notes/rbf2.mp4)<br>ESL 6.7, ML:APP 13.3-4     |   |
 |  | Thu Oct 21<br> |  | MIDTERM (6:00-7:30pm) | |
-| 18 | Fri Oct 22<br> | [Linear Classifiers](lectures/L19.pdf)   | [Companion notebook](notebooks/L19b_lin-classifiers1.ipynb),  [Perceptron](https://en.wikipedia.org/wiki/Perceptron)<br>ESL 4.5, ML:APP 8.5    |        |
+| 18 | Fri Oct 22<br> | [Linear Classifiers](lectures/L18.pdf?raw=1)   | [Companion notebook](notebooks/L19b_lin-classifiers1.ipynb),  [Perceptron](https://en.wikipedia.org/wiki/Perceptron)<br>ESL 4.5, ML:APP 8.5    |        |
 | 19 | Mon Oct 25<br> | [More Linear Classifiers](lectures/L20.pdf)    | [Companion notebook](notebooks/L20_lin-classifiers2.ipynb),  [Support Vector Machines](https://en.wikipedia.org/wiki/Support_vector_machine)<br>ESL 4.4, 12.1-2, ML:APP 8.1-3, 9.5 14.5, AI:AMA 18.9  |   |
 | 20 | Wed Oct 27<br> | [Feature Engineering](lectures/L21.pdf)    | [Gmail Priority Inbox](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36955.pdf)  |   |
 | 21 | Fri Oct 29<br> | [Convolutions](lectures/L22.pdf)      |    |      |
