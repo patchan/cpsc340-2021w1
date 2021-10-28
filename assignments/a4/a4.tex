@@ -237,7 +237,7 @@ Can you provide some intuition for your results? No need to write a long essay, 
 
 
 
-\subsection{L$\frac12$-regularization \pts{8}}
+\subsection{L$\frac12$ regularization \pts{8}}
 
 Previously we've considered L2- and L1- regularization which use the L2 and L1 norms respectively. Now consider
 least squares linear regression with ``L$\frac12$ regularization'' (in quotation marks because the ``L$\frac12$ norm'' is not a true norm):
@@ -255,7 +255,7 @@ where our 2 data points are $(x_1,y_1)=(1,2)$ and $(x_2,y_2)=(0,1)$.
 \begin{enumerate}
 \item \ask{Plug in the dataset values and write the loss in a simplified form, without a $\sum$.}
 \item \ask{If $\lambda=0$, what is the solution, i.e. $\arg \min_w f(w)$?}
-\item If $\lambda\rightarrow \infty$, what is the solution, i.e., $\arg \min_w f(w)$?
+\item \ask{If $\lambda\rightarrow \infty$, what is the solution, i.e., $\arg \min_w f(w)$?}
 \item \ask{Plot $f(w)$ when $\lambda = 1$. What is $\arg \min_w f(w)$ when $\lambda=1$?} Answer to one decimal place if appropriate. (For the plotting questions, you can use \texttt{matplotlib} or any graphing software, such as \url{https://www.desmos.com}.)
 \item \ask{Plot $f(w)$ when $\lambda = 10$. What is $\arg \min_w f(w)$ when $\lambda=10$?} Answer to one decimal place if appropriate.
 \item \ask{Does L$\frac12$ regularization behave more like L1 regularization or L2 regularization
