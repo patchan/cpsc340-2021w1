@@ -14,9 +14,9 @@ def load_dataset(dataset_name, standardize=True, add_bias=True):
         data = pickle.load(f)
 
     X = data["X"]
-    y = data["y"]
+    y = data["y"].astype(np.int32)
     Xvalid = data["Xvalidate"]
-    yvalid = data["yvalidate"]
+    yvalid = data["yvalidate"].astype(np.int32)
 
     if standardize:
         X, mu, sigma = standardize_cols(X)
