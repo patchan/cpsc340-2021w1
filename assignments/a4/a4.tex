@@ -348,7 +348,8 @@ Hint: A na\"ive implementation of \verb|SoftmaxLoss.evaluate()| might involve ma
 \ask{Compare your results (training error and validation error for both one-vs-all and softmax) with scikit-learn's \texttt{LogisticRegression}},
 which can also handle multi-class problems.
 For one-vs-all, set \verb|multi_class='ovr'|; for softmax, set \verb|multi_class='multinomial'|.
-Since your comparison code above isn't using regularization, set \verb|C| very large to effectively disable regularization.
+Since your comparison code above isn't using regularization, set \verb|penalty='none'|, or just set \verb|C| very large to effectively disable regularization.
+(Remember that, basically, $C = 1 / \lambda$.)
 Again, set \verb|fit_intercept| to \verb|False| for the same reason as above (there is already a column of $1$'s added to the data set).
 
 
