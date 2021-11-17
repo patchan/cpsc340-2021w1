@@ -51,7 +51,7 @@
 
 \begin{document}
 
-\title{CPSC 340 Assignment 5 -- due 2021-11-22}
+\title{CPSC 340 Assignment 5}
 \date{}
 \maketitle
 \vspace{-6em}
@@ -198,7 +198,7 @@ First, it shows a plot of the matrix entries, which has too much information and
 Next it shows a scatterplot based on two random features and displays the name of 15 randomly-chosen animals.
 Because of the binary features even a scatterplot matrix shows us almost nothing about the data.
 
-In \texttt{compressors.py}, you will find a class named \texttt{PCA}, which implements the classic PCA method (orthogonal bases via SVD) for a given $k$, the number of principal components. Using this class, create a scatterplot that uses the latent features $z_i$ from the PCA model with $k=2$.
+In \update{\texttt{encoders.py}}, you will find \update{a class named \texttt{PCAEncoder}}, which implements the classic PCA method (orthogonal bases via SVD) for a given $k$, the number of principal components. Using this class, create a scatterplot that uses the latent features $z_i$ from the PCA model with $k=2$.
 Make a scatterplot of all examples using the first column of $Z$ as the $x$-axis and the second column of $Z$ as the $y$-axis, and use \texttt{plt.annotate()} to label the points corresponding to \verb|random_is| in the scatterplot.
 (It's okay if some of the text overlaps each other; a fancier visualization would try to avoid this, of course, but hopefully you can still see most of the animals.)
 Do the following:
