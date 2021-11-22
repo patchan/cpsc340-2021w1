@@ -55,4 +55,4 @@ Note: In the timetable below, the textbook codes (such as "AI:AMA") are defined 
 | 32 | Mon Nov 29<br> | [Convolutional Neural Networks](lectures/L32.pdf)   | [Companion notebook 1](notebooks/L34demo_convolution-cnn.ipynb), [Companion notebook 2](notebooks/L35demo-cnn-pretrained.ipynb), [Companion notebook 3](notebooks/L36_cnn-details.ipynb), [Convolutional Neural Networks](https://en.wikipedia.org/wiki/Convolutional_neural_network)<br>ML:APP 28.4, ESL 11.7   | |
 | 33 | Wed Dec 1<br> | [More CNNs](lectures/L33.pdf) | |  |
 |  | Fri Dec 3<br> | Bonus lecture |  |    |
-|  | Mon Dec 6<br> | Bonus lecture |  | Assignment 6 due      |
+|  | Mon Dec 6<br> | Bonus lecture |  | Assignment 6 due, No tutorials this week.      |
