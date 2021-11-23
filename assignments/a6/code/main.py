@@ -307,8 +307,7 @@ def q2_3():
     k = 50
     fun_obj_w = CollaborativeFilteringWLoss(lammyW=1)
     fun_obj_z = CollaborativeFilteringZLoss(lammyZ=1)
-
-    raise NotImplementedError()
+    # TODO: play around with these hyperparameters
 
 
     optimizer_w = GradientDescentLineSearch(max_evals=100, verbose=False)
@@ -412,9 +411,6 @@ def q3_2():
 
     n, d = X_train.shape
     _, k = Y_train.shape  # k is the number of classes
-
-    raise NotImplementedError()
-
 
     # Assemble a neural network
     # put hidden layer dimensions to increase the number of layers in encoder
