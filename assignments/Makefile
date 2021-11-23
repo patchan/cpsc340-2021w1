@@ -13,7 +13,7 @@ a2/a2.pdf: $(shell find a2/figs)
 a3/a3.pdf: $(shell find a3/figs)
 a4/a4.pdf: $(shell find a4/figs)
 a5/a5.pdf: $(shell find a5/figs)
-a6/a6.pdf: $(shell find a5/figs)
+a6/a6.pdf: $(shell find a6/figs)
 %.pdf: %.tex
 	${LATEXMK} -silent -cd -pdf -shell-escape $<
 
