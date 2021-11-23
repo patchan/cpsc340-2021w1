@@ -138,7 +138,7 @@ The midterm exam will take place on **Thursday, October 21st, 2021 from 6:00-7:3
 
 ### Final exam
 
-The date of the final exam is **TBD**. The exact situation in terms of taking the final is also still to be determined; until the date and method is announced, make travel plans consistent with being required to take it in-person potentially as late as December 22nd.
+The date of the final exam is **December 19th, 2021** and the exam will be **online**. The exam should take roughly 2.5 hours but you can complete it anytime from 8:30am to 8:30pm on the exam day. More details on the format TBA.
 
 
 ## Academic concessions
