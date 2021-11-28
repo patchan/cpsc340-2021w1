@@ -228,8 +228,8 @@ If you run \texttt{python main.py -q 3}, the program will train a multi-class lo
 The scikit-learn implementation called by the code uses a minibatch size of 1 and a one-vs-rest strategy for multi-class logistic regression. It is set to train for 10 epochs.
 The performance of this model is already quite good, with around 8\% training and validation errors. Your task is to use a neural networks classifier to outperform this baseline model.
 
-If you run \texttt{python main.py -q 3.2}, the program will train a single-layer neural network (one-layer nonlinear encoder paired with a linear classifier) on the same dataset using some pre-tuned hyperparameters. Modify the code, play around with the hyperparameter values (configurations of encoder layers, batch size and learning rate of SGD, standardization, etc.) until you achieve validation error that is reliably below 8\%. \ask{Report (1) the training and validation errors that you obtain with your hyperparameters, and (2) the hyperparameters that you used.}
-\red{The provided code already gets below 8\%, whoops. If you can get below 5\% that would be even better, but it's not required. If you do nothing at all, we will still give you credit since the question was flawed.}
+If you run \texttt{python main.py -q 3.2}, the program will train a single-layer neural network (one-layer nonlinear encoder paired with a linear classifier) on the same dataset using some pre-tuned hyperparameters. Modify the code, play around with the hyperparameter values (configurations of encoder layers, batch size and learning rate of SGD, standardization, etc.) until you achieve validation error that is reliably below \red{5}\%. \ask{Report (1) the training and validation errors that you obtain with your hyperparameters, and (2) the hyperparameters that you used.}
+
 
 
 
