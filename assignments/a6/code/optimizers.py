@@ -508,7 +508,7 @@ class StochasticGradient(Optimizer):
 
         self.num_evals += 1
 
-        print(f"Epoch {self.num_evals}\t f={f_new:.3f}\t ||g||={norm(g_new):.3f}")
+        print(f"Epoch {self.num_evals:02d}\t f={f_new:10.3f}\t ||g||={norm(g_new):.3f}")
 
         # Determine the norm of "mean gradient" for breaking criterion
         break_yes = self.break_yes(g_new)

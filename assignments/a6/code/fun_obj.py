@@ -325,8 +325,9 @@ class PCAFactorsLoss(FunObj):
 
 
 class CollaborativeFilteringZLoss(FunObj):
-    def __init__(self, lammyZ=1):
+    def __init__(self, lammyZ=1, lammyW=1):
         self.lammyZ = lammyZ
+        self.lammyW = lammyW
 
     def evaluate(self, z, W, Y):
         raise NotImplementedError()
@@ -334,7 +335,8 @@ class CollaborativeFilteringZLoss(FunObj):
 
 
 class CollaborativeFilteringWLoss(FunObj):
-    def __init__(self, lammyW=1):
+    def __init__(self, lammyZ=1, lammyW=1):
+        self.lammyZ = lammyZ
         self.lammyW = lammyW
 
     def evaluate(self, w, Z, Y):

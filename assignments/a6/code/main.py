@@ -251,8 +251,10 @@ def q2_2():
 
     # PCA with alternating minimization
     k = 50
-    fun_obj_w = CollaborativeFilteringWLoss(lammyW=1)
-    fun_obj_z = CollaborativeFilteringZLoss(lammyZ=1)
+    # Below: you need to use the same lammyZ in both cases, and the same lammyW in both cases
+    # TODO next year: improve this code
+    fun_obj_w = CollaborativeFilteringWLoss(lammyZ=1, lammyW=1)
+    fun_obj_z = CollaborativeFilteringZLoss(lammyZ=1, lammyW=1)
 
     # smaller version for checking the gradient, otherwise it's slow
     k_check = 3
@@ -305,9 +307,8 @@ def q2_3():
     avg_rating = np.nanmean(Y_train)
 
     k = 50
-    fun_obj_w = CollaborativeFilteringWLoss(lammyW=1)
-    fun_obj_z = CollaborativeFilteringZLoss(lammyZ=1)
-    # TODO: play around with these hyperparameters
+    fun_obj_w = CollaborativeFilteringWLoss(lammyZ=1, lammyW=1)
+    fun_obj_z = CollaborativeFilteringZLoss(lammyZ=1, lammyW=1)
 
 
     optimizer_w = GradientDescentLineSearch(max_evals=100, verbose=False)
@@ -322,12 +323,12 @@ def q2_3():
     Y_hat = model.Z @ model.W + model.mu
 
     print(
-        "Train RMSE if you just guess the average",
-        np.sqrt(np.nanmean((avg_rating - Y_train) ** 2)),
+        "Train RMSE if you just guess the average: %.2f" % 
+        np.sqrt(np.nanmean((avg_rating - Y_train) ** 2))
     )
     print(
-        "Valid RMSE if you just guess the average",
-        np.sqrt(np.nanmean((avg_rating - Y_valid) ** 2)),
+        "Valid RMSE if you just guess the average: %.2f" %
+        np.sqrt(np.nanmean((avg_rating - Y_valid) ** 2))
     )
 
     RMSE_train = np.sqrt(np.nanmean((Y_hat - Y_train) ** 2))
@@ -412,10 +413,11 @@ def q3_2():
     n, d = X_train.shape
     _, k = Y_train.shape  # k is the number of classes
 
+
     # Assemble a neural network
     # put hidden layer dimensions to increase the number of layers in encoder
     hidden_feature_dims = []
-    output_dim = 256
+    output_dim = 2
 
     # First, initialize an encoder and a predictor
     layer_sizes = [d, *hidden_feature_dims, output_dim]
@@ -423,30 +425,30 @@ def q3_2():
     predictor = LinearModelMultiOutput(output_dim, k)
 
     # Function object will associate the encoder and the predictor during training
-    fun_obj = MLPLogisticRegressionLossL2(encoder, predictor, 1e-3)
+    fun_obj = MLPLogisticRegressionLossL2(encoder, predictor, 1.)
 
     # Choose optimization strategy
     child_optimizer = GradientDescent()
-    learning_rate_getter = ConstantLR(1e-3)
+    learning_rate_getter = ConstantLR(1e-2)
     # learning_rate_getter = LearningRateGetterInverseSqrt(1e0)
     optimizer = StochasticGradient(
-        child_optimizer, learning_rate_getter, 500, max_evals=20
+        child_optimizer, learning_rate_getter, 500, max_evals=10
     )
 
     # Assemble!
     model = NeuralNet(fun_obj, optimizer, encoder, predictor, classifier_yes=True)
 
     t = time.time()
-    model.fit(X_train_standardized, Y_train)
+    model.fit(X_train, Y_train)
     print("Fitting took {:f} seconds".format((time.time() - t)))
 
     # Compute training error
-    y_hat = model.predict(X_train_standardized)
+    y_hat = model.predict(X_train)
     err_train = np.mean(y_hat != y_train)
     print("Training error = ", err_train)
 
     # Compute validation error
-    y_hat = model.predict(X_valid_standardized)
+    y_hat = model.predict(X_valid)
     err_valid = np.mean(y_hat != y_valid)
     print("Validation error     = ", err_valid)
 
