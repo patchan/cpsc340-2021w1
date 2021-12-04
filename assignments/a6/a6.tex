@@ -109,21 +109,25 @@ Our smoothed loss is:
 f(Z,W) = \sum_{i=1}^n\sum_{j=1}^d \sqrt{(\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon }
 \]
 
-The partial derivatives of this loss with respect to the elements of $W$ are:
+The partial derivatives of this loss with respect to the elements of $W$ are
+(\update{this derivation has been corrected since first posting, though the final answer was always right}):
 
 \begin{align*}
-\frac{\partial}{\partial w_{cj}} f(Z,W) &= \frac{\partial}{\partial w_{cj}} \sum_{i=1}^n\sum_{j=1}^d \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{\frac12} \\
- &= \sum_{i=1}^n\sum_{j=1}^d  \frac{\partial}{\partial w_{cj}} \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{\frac12} \\
-  &= \sum_{i=1}^n\sum_{j=1}^d  \frac12 \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12} \frac{\partial}{\partial w_{cj}} \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right) \\
-  &= \sum_{i=1}^n\sum_{j=1}^d  \frac12  \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12} 2  (\langle w^j, z_i\rangle - x_{ij})  \frac{\partial}{\partial w_{cj}} \langle w^j, z_i\rangle \\
-  &= \sum_{i=1}^n\sum_{j=1}^d  \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}  (\langle w^j, z_i\rangle - x_{ij}) \, z_{ic}
+\frac{\partial}{\partial w_{cj}} f(Z,W)
+  &= \frac{\partial}{\partial w_{cj}} \sum_{i=1}^n\sum_{j'=1}^d \left( (\langle w^{j'}, z_i\rangle - x_{ij'})^2 + \epsilon \right)^{\frac12} \\
+  &= \sum_{i=1}^n \frac{\partial}{\partial w_{cj}} \left( (\langle w^{j}, z_i\rangle - x_{ij})^2 + \epsilon \right)^{\frac12}  \qquad \text{(since the $j' \ne j$ terms have no $w_{cj}$ in them)} \\
+  &= \sum_{i=1}^n \frac12 \left( (\langle w^{j}, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12} \frac{\partial}{\partial w_{cj}} \left( (\langle w^{j}, z_i\rangle - x_{ij})^2 + \epsilon \right) \\
+  &= \sum_{i=1}^n \frac12  \left( (\langle w^{j}, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12} \;2\,  (\langle w^{j}, z_i\rangle - x_{ij}) \; \frac{\partial}{\partial w_{cj}} \langle w^{j}, z_i\rangle \\
+  &= \sum_{i=1}^n \left( (\langle w^{j}, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}  (\langle w^j, z_i\rangle - x_{ij}) \, z_{ic}
 \end{align*}
 
-For the partial derivatives with respect to $Z$, all of the above steps are the same except for the last one:
+The partial derivatives with respect to $Z$ are similar:
 
 \begin{align*}
-\frac{\partial}{\partial z_{ic}} f(Z,W)  &= \sum_{i=1}^n\sum_{j=1}^d  \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}   (\langle w^j, z_i\rangle - x_{ij})  \frac{\partial}{\partial z_{ic}} \langle w^j, z_i\rangle \\
-  &= \sum_{i=1}^n\sum_{j=1}^d  \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}  (\langle w^j, z_i\rangle - x_{ij}) \, w_{cj}
+\frac{\partial}{\partial z_{ic}} f(Z,W)
+  &= \frac{\partial}{\partial z_{ic}} \sum_{i'=1}^n \sum_{j=1}^d  \left( (\langle w^j, z_{i'}\rangle - x_{i'j})^2 + \epsilon \right)^{\frac12}\\
+  &= \sum_{j=1}^d  \left( (\langle w^j, z_{i}\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}   (\langle w^j, z_{i}\rangle - x_{ij}) \; \frac{\partial}{\partial z_{ic}} \langle w^j, z_i\rangle \\
+  &= \sum_{j=1}^d  \left( (\langle w^j, z_i\rangle - x_{ij})^2 + \epsilon \right)^{-\frac12}  (\langle w^j, z_i\rangle - x_{ij}) \, w_{cj}
 \end{align*}
 
 If we put this into matrix(ish) notation, we get the following:
@@ -132,7 +136,10 @@ If we put this into matrix(ish) notation, we get the following:
 \nabla_W f(Z,W) = Z^T \left[ R \oslash \left(R^{\circ 2} + \epsilon\right)^{\circ \frac12}  \right]
 \]
 
-where $R\equiv ZW-X$, $A \oslash B$ denotes \textbf{element-wise} division of $A$ and $B$, and $A^{\circ p}$ denotes taking $A$ to the \textbf{element-wise} power of $p$.
+where $R\equiv ZW-X$,
+$A \oslash B$ denotes \textbf{element-wise} division of $A$ and $B$,
+$A + s$ for a scalar $s$ denotes element-wise adding $s$ to each entry of $A$,
+and $A^{\circ p}$ denotes taking $A$ to the \textbf{element-wise} power of $p$.
 
 And, similarly, the gradient with respect to $Z$ is given by:
 
@@ -269,7 +276,7 @@ Previously we changed the \emph{hidden layer size} from 2 to 4. Another change w
 \ask{Answer the following questions and provide a brief explanation for each:}
 
 \begin{enumerate}
-	\item Why are the axes ($z_1$ and $z_2$) of the learned feature space scatterplot constrained to $[0, 1]$? Note/hint: here, our definition of $z$ is after the nonlinearity is applied, whereas in the lecture $z$ is defined as before the nonlinearity is applied. Sorry about that! 
+	\item Why are the axes ($z_1$ and $z_2$) of the learned feature space scatterplot constrained to $[0, 1]$? Note/hint: here, our definition of $z$ is after the nonlinearity is applied, whereas in the lecture $z$ is defined as before the nonlinearity is applied. Sorry about that!
 	%
 	\item Does it make sense to use neural networks on datasets whose examples are linearly separable in the original feature space?
 	%
