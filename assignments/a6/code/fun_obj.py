@@ -284,9 +284,10 @@ class SoftmaxLoss(FunObj):
         Xw_of_y = XW[np.arange(n), y]  # n; confusingly, : would NOT work in first index
         f = -Xw_of_y.sum() + logsumexp_XW.sum()  # scalar
 
-        # n by k by d; G_terms[i, c, j] = x_ij [p(y_i=c | W, x_i) - 1(y_i = c)]
-        G_terms = X[:, np.newaxis, :] * (p - one_hots)[:, :, np.newaxis]
-        G = G_terms.sum(axis=0)  # k by d
+        # einsum, "einstein summation", is a handy function to know:
+        # this one gives
+        #   G[c, j] = \sum_i X[i, j] (p - one_hots)[j, c]
+        G = np.einsum('ij, ic -> cj', X, p - one_hots)
         g = G.reshape(-1)  # kd
 
         return f, g
