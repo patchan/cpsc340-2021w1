@@ -54,5 +54,5 @@ Note: In the timetable below, the textbook codes (such as "AI:AMA") are defined 
 | 31 | Fri Nov 26<br> | [Convolutions](lectures/L31.pdf?raw=1)      |  [Companion notebook](notebooks/L34demo_convolution-cnn.ipynb)   |      |
 | 32 | Mon Nov 29<br> | [Convolutional Neural Networks](lectures/L32.pdf?raw=1)   | [Companion notebook](notebooks/L35demo-cnn-pretrained.ipynb), [Convolutional Neural Networks](https://en.wikipedia.org/wiki/Convolutional_neural_network)<br>ML:APP 28.4, ESL 11.7   | [Week 10 Tutorials](tutorials/week10) |
 | 33 | Wed Dec 1<br> | [More CNNs](lectures/L33.pdf?raw=1) | |  |
-| 34 | Fri Dec 3<br> | **2pm class**: Bonus lecture on [CNN details](lectures/bonus-cnn-details/bonus-cnn-details.ipynb)<br>**4pm class**: Bonus lecture on [generative adversarial nets (GANs) and distances between distributions](lectures/bonus-gans-and-distribution-distances.pdf)    |  |    |
-| 35 | Mon Dec 6<br> | Conclusion |  | Assignment 6 due, No tutorials this week.      |
+|    | Fri Dec 3<br> | **2pm class**: Bonus lecture on [CNN details](lectures/bonus-cnn-details/bonus-cnn-details.ipynb)<br>**4pm class**: Bonus lecture on [generative adversarial nets (GANs) and distances between distributions](lectures/bonus-gans-and-distribution-distances.pdf)    |  |    |
+| 34 | Mon Dec 6<br> | [Conclusion](lectures/L34.pdf?raw=1) |  | Assignment 6 due, No tutorials this week.      |
